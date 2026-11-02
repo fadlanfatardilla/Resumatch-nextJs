@@ -294,7 +294,7 @@ export function AnalysisDashboard({
           </CardHeader>
           <CardContent>
             {data?.interviewQuestions && data.interviewQuestions.length > 0 ? (
-              <Accordion type="single" className="w-full space-y-2">
+              <Accordion className="w-full space-y-2">
                 {data.interviewQuestions.map((q, idx) => (
                   <AccordionItem
                     key={idx}
