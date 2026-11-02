@@ -6,7 +6,6 @@ import Groq from "groq-sdk";
 const ai = new GoogleGenAI();
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
-// Batas maksimum karakter untuk mencegah token overflow
 const MAX_TEXT_LENGTH = 12000;
 
 const responseSchema: Schema = {
